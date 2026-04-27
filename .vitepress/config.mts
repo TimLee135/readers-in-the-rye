@@ -4,21 +4,22 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   srcDir: "docs",
   base: "/readers-in-the-rye/",
-  title: "Readers in the Rye",
+  title: "麦田里的阅读者",
   description: "Notes, Reports and Poems",
+  lang: "zh-CN",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
-      { text: 'Home', link: '/' },
-      { text: 'Examples', link: '/markdown-examples' }
+      { text: '首页', link: '/' },
+      { text: '示例', link: '/markdown-examples' }
     ],
 
     sidebar: [
       {
         text: 'Examples',
         items: [
-          { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
+          { text: 'Markdown 示例', link: '/markdown-examples' },
+          { text: 'Runtime API 示例', link: '/api-examples' }
         ]
       }
     ],
