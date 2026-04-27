@@ -3,9 +3,9 @@
 layout: home
 
 hero:
-  name: "Readers in the Rye"
-  text: "Notes, Reports and Poems"
-  tagline: My great project tagline
+  name: "麦田里的阅读者"
+  text: "笔记, 报告, 诗歌"
+  tagline: Readers in the Rye
   actions:
     - theme: brand
       text: Markdown Examples
@@ -15,11 +15,11 @@ hero:
       link: /api-examples
 
 features:
-  - title: Feature A
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature B
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
-  - title: Feature C
-    details: Lorem ipsum dolor sit amet, consectetur adipiscing elit
+  - title: 笔记
+    details: 学习不止
+  - title: 报告
+    details: 笔耕不辍
+  - title: 诗歌
+    details: 语言的边界
 ---
 
